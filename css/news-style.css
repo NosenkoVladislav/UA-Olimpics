@@ -1,0 +1,317 @@
+/******************/
+ /* section header */
+/******************/
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #005794;
+	color: #80abc9;
+	border-radius: 0;
+	height: 56px;
+	margin-bottom: 0;
+	z-index: 1000;
+}
+
+.navbar .navbar-nav li a {
+	color: #7fabc9;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.navbar-nav a:focus, a:hover{
+	color: #fff !important;
+	background-color: transparent !important;
+}
+
+.navbar .navbar-collapse {
+	background-color: #005794;
+}
+
+.share-header {
+	color: #fff !important;
+}
+
+.navbar-right {
+	display: block;
+}
+
+	
+@media (max-width: 768px) {
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+	.navbar-right li {
+		display: inline-block;
+	}
+
+}
+
+.header-banner {
+	width: 100%;
+	background: url('../img/head-image.png') no-repeat center center;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.emblem {
+	height: 120px;
+	width: 120px;
+	background-color: #fff;
+}
+
+.emblem img {
+	width: 100%;
+	padding: 10px;
+}
+
+.banner-text {
+	color: #fff;
+	margin-left: -50px;
+}
+
+.banner-text .main {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: MuseoSansCyrl100;
+}
+
+.banner-text .minor {
+	font-size: 20px;
+	font-family: MuseoSansCyrl300; 
+	color: #1796e7;
+	padding-top: 10px;
+}
+
+.icon-bar {
+	background-color: #fff
+}
+
+@media (max-width: 992px) {
+
+	.header-banner {
+		margin-bottom: 0;
+	}
+
+	.emblem {
+		margin: 0 auto;
+	}
+
+	.banner-text {
+		text-align: center;
+		margin: 50px 0;
+	}
+
+	.banner-text .main {
+		font-size: 30px;
+	}
+	
+	.banner-text .minor {
+		font-size: 20px;
+	}
+}
+
+
+/* block news section */
+
+.content-news {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.news-main-img {
+	height: 400px;
+	overflow: hidden;
+	object-fit: contain;
+}
+
+.news-main-img img {
+	width: 100%;
+}
+
+.content-title {
+	font-family: MuseoSansCyrl700;
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+.post-date {
+	font-size: 12px;
+	color: #4da2c7;
+	margin: 10px 0;
+}
+
+.content-news p {
+	font-family: MuseoSansCyrl500;
+	margin: 15px 0;
+}
+
+.content-tags {
+	display: inline-block;
+	float: left;
+	font-family: MuseoSansCyrl500;
+}
+
+.tag {
+	background-color: #1889cb;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-family: MuseoSansCyrl300;
+	margin: 0 3px;
+}
+
+.tag:hover {
+	cursor: pointer;
+}
+
+.content-share {
+	display: inline-block;
+	float: right;
+	font-family: MuseoSansCyrl500;
+	margin-top: -6px;
+}
+
+.content-share a{
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.content-share a i {
+	line-height: 35px;
+}
+
+.content-share a:hover {
+
+}
+
+.content-share .facebook {
+	background-color: #415997;
+}
+
+.content-share .twitter {
+	background-color: #1dc0f7;
+}
+
+.content-share .googleplus {
+	background-color: #ed4542;
+}
+
+.content-share .instagramm {
+	background: url('../img/instagram-bg.jpg') no-repeat center;
+	background-size: cover;
+}
+
+
+@media (max-width: 992px) {
+	.news-main-img {
+		height: 200px;
+	}
+
+	.content-tags {
+		float: none;
+	}
+
+	.content-share {
+		float: none;
+		margin-top: 20px;
+	}
+}
+/* news slider section */
+
+.news-section {
+	background: url('../img/bg.svg') no-repeat center;
+	background-size: cover;
+	padding: 36px 0;
+	margin-top: 50px;
+}
+
+.title {
+	font-size: 20px;
+	color: #fff;
+	margin: 10px 0;
+}
+
+.news-title {
+	font-family: MuseoSansCyrl300;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.short-news {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.first-short-news {
+	padding-top: 0;
+}
+
+.last-short-news {
+	border-bottom: none;
+}
+
+.tile-news {
+	margin-top: 20px;
+}
+
+.news-image {
+	position: relative;
+}
+
+.news-image img {
+	width: 100%;
+}
+
+.label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #e84560;
+	border-radius: 0;
+	padding: 10px;
+}
+
+.news .date {
+	font-size: 12px;
+	color: #84bfdf;
+	margin-top: 10px;
+}
+
+
+/* section footer */
+
+.footer .navbar {
+	background-color: #fff;
+}
+
+.footer-collapse {
+	background-color: #fff !important;
+}
+
+.share {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 14px;
+}
+
+.share-footer {
+	color: #337ab7 !important;
+}
+
+.share-footer:hover {
+	cursor: pointer;
+	color: #337ab7 !important;
+
