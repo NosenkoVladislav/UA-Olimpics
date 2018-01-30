@@ -1,0 +1,497 @@
+/******************/
+ /* section header */
+/******************/
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #005794;
+	color: #80abc9;
+	border-radius: 0;
+	height: 56px;
+	margin-bottom: 0;
+	z-index: 1000;
+}
+
+.navbar .navbar-nav li a {
+	color: #7fabc9;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.navbar-nav a:focus, a:hover{
+	color: #fff !important;
+	background-color: transparent !important;
+}
+
+.navbar .navbar-collapse {
+	background-color: #005794;
+}
+
+.share-header {
+	color: #fff !important;
+}
+
+.navbar-right {
+	display: block;
+}
+
+	
+@media (max-width: 768px) {
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+	.navbar-right li {
+		display: inline-block;
+	}
+
+}
+
+.header-banner {
+	width: 100%;
+	background: url('../img/head-image.png') no-repeat center center;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.emblem {
+	height: 120px;
+	width: 120px;
+	background-color: #fff;
+}
+
+.emblem img {
+	width: 100%;
+	padding: 10px;
+}
+
+.banner-text {
+	color: #fff;
+	margin-left: -50px;
+}
+
+.banner-text .main {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: MuseoSansCyrl100;
+}
+
+.banner-text .minor {
+	font-size: 20px;
+	font-family: MuseoSansCyrl300; 
+	color: #1796e7;
+	padding-top: 10px;
+}
+
+.icon-bar {
+	background-color: #fff
+}
+
+@media (max-width: 992px) {
+
+	.header-banner {
+		margin-bottom: 0;
+	}
+
+	.emblem {
+		margin: 0 auto;
+	}
+
+	.banner-text {
+		text-align: center;
+		margin: 50px 0;
+	}
+
+	.banner-text .main {
+		font-size: 30px;
+	}
+	
+	.banner-text .minor {
+		font-size: 20px;
+	}
+}
+
+
+/* sports section */
+
+.sports {
+	background: url('../img/bg.png') no-repeat center;
+	background-size: cover;
+	padding-top: 30px;
+	width: 100%;
+}
+
+.sports-wrapper {
+	width: 100%;
+	background-color: #fff;
+	min-height: 67.25px;
+	text-align: center;
+}
+
+.sports-item {
+	display: inline-block;
+	width: 6.3%;
+	min-height: 67.25px;
+}
+
+.sports-item img {
+	width: 100%;
+}
+
+.sports-item:hover {
+	cursor: pointer;
+}
+
+.alpine-skiing {
+	background: url('../img/alpine-skiing-technical.svg') no-repeat center;
+}
+
+.alpine-skiing:hover {
+	background: url('../img/alpine-skiing-technical-hover.svg') no-repeat center;
+}
+
+.biathlon {
+	background: url('../img/biathlon.svg') no-repeat center;
+}
+
+.biathlon:hover {
+	background: url('../img/biathlon.svg') no-repeat center;
+}
+
+.bobsleigh {
+	background: url('../img/bobsleigh.svg') no-repeat center;
+}
+
+.bobsleigh:hover {
+	background: url('../img/bobsleigh.svg') no-repeat center;
+}
+
+.cross-country-skiing {
+	background: url('../img/cross-country-skiing.svg') no-repeat center;
+}
+
+.cross-country-skiing:hover {
+	background: url('../img/cross-country-skiing.svg') no-repeat center;
+}
+
+.curling {
+	background: url('../img/curling.svg') no-repeat center;
+}
+
+.curling:hover {
+	background: url('../img/curling.svg') no-repeat center;
+}
+
+.figure-skating {
+	background: url('../img/figure-skating.svg') no-repeat center;
+}
+
+.figure-skating:hover {
+	background: url('../img/figure-skating.svg') no-repeat center;
+}
+
+.freestyle-skiing-aerials {
+	background: url('../img/freestyle-skiing-aerials.svg') no-repeat center;
+}
+
+.freestyle-skiing-aerials:hover {
+	background: url('../img/freestyle-skiing-aerials.svg') no-repeat center;
+}
+
+.ice-hockey {
+	background: url('../img/ice-hockey.svg') no-repeat center;
+}
+
+.ice-hockey:hover {
+	background: url('../img/ice-hockey.svg') no-repeat center;
+}
+
+.luge {
+	background: url('../img/luge.svg') no-repeat center;
+}
+
+.luge:hover {
+	background: url('../img/luge.svg') no-repeat center;
+}
+
+.nordic-combined {
+	background: url('../img/nordic-combined-hover.svg') no-repeat center;
+}
+
+.nordic-combined:hover {
+	background: url('../img/nordic-combined-hover.svg') no-repeat center;
+}
+
+.short-track {
+	background: url('../img/short-track.svg') no-repeat center;
+}
+
+.short-track:hover {
+	background: url('../img/short-track.svg') no-repeat center;
+}
+
+.skeleton {
+	background: url('../img/skeleton.svg') no-repeat center;
+}
+
+.skeleton:hover {
+	background: url('../img/skeleton.svg') no-repeat center;
+}
+
+.ski-jumping {
+	background: url('../img/ski-jumping.svg') no-repeat center;
+}
+
+.ski-jumping:hover {
+	background: url('../img/ski-jumping.svg') no-repeat center;
+}
+
+.snowboard-big-air {
+	background: url('../img/snowboard-big-air.svg') no-repeat center;
+}
+
+.snowboard-big-air:hover {
+	background: url('../img/snowboard-big-air.svg') no-repeat center;
+}
+
+.speed-skating {
+	background: url('../img/speed-skating.svg') no-repeat center;
+}
+
+.speed-skating:hover {
+	background: url('../img/speed-skating.svg') no-repeat center;
+}
+
+
+@media (max-width: 1200px) {
+
+	.sports-wrapper {
+		height: 80px;
+		overflow-y: scroll;
+		text-align: center;
+	}
+
+	.sports-item {
+		width: 80px;
+	}
+
+	.sports-item img {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 992px) {
+	
+	.sports-wrapper {
+		height: 54px;
+		overflow-y: scroll;
+		text-align: center;
+	}
+
+	.sports-wrapper {
+		overflow-y: scroll;
+	}
+
+	.sports-item {
+		width: 65px;
+	}
+
+}
+
+
+/* section schedule */
+.sport-name-title {
+	font-family: MuseoSansCyrl700;
+	font-size: 20px;
+	margin: 10px 0;
+	margin-left: 15px;
+}
+
+.table > thead {
+	background-color: #1689cc;
+	color: #fff;
+	font-size: 14px;
+	font-family: MuseoSansCyrl500;
+}
+
+
+.table > thead  tr > th {
+	vertical-align: middle;
+	text-align: center;
+	line-height: 14px;
+}
+
+
+.main-th {
+	width: 17%;
+}
+
+.table-name {
+	text-align: left;
+	margin-left: 5px;
+}
+
+.week-day {
+	font-size: 10px;
+	color: #7fabc9;
+}
+
+.d-off {
+	color: #fff;
+}
+
+.selected {
+	background-color: #e84562;
+	position: relative;
+}
+
+.selected > .week-day{
+	color: #fff;
+}
+
+.selected:after {
+	content: '';
+	position: absolute;
+	left: 35%;
+	bottom: -10px;
+	border: 5px solid transparent;	
+	border-top: 5px solid #e84562;
+}
+
+
+.shcedule-item {
+	width: 100%;
+	border: 1px solid #64b1db;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.time {
+	display: inline-block;
+	background-color: #095891;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 8px;
+	line-height: 55px;
+}
+
+.item-content {
+	display: inline-block;
+	height: 30px;
+	font-size: 12px;
+	font-family: MuseoSansCyrl500;
+	vertical-align: middle;
+    width: 60%;
+    line-height: 12px;
+	margin-left: 5px;
+}
+
+.translation-link {
+	color: #1689cc;
+	text-decoration: underline;
+	font-size: 12px;
+	font-family: MuseoSansCyrl500;
+}
+
+.translation-link:hover {
+	color: #1689cc !important;
+}
+
+/* tile section */
+
+.tile {
+ 	margin-top: 25px;
+}
+
+.black-title {
+	color: #000 !important;
+	font-family: MuseoSansCyrl500;
+}
+/* news slider section */
+
+.news-section {
+	background: url('../img/bg.svg') no-repeat center;
+	background-size:cover;
+	padding: 36px 0;
+	margin-top: 50px;
+}
+
+.title {
+	font-size: 20px;
+	color: #fff;
+	margin: 10px 0;
+}
+
+.news-title {
+	font-family: MuseoSansCyrl500;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.tile-news {
+	margin-top: 20px;
+}
+
+.news-image {
+	position: relative;
+}
+
+.news-image img {
+	width: 100%;
+}
+
+.label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #e84560;
+	border-radius: 0;
+	padding: 10px;
+}
+
+.news .date {
+	font-size: 12px;
+	color: #84bfdf;
+	margin-top: 5px;
+}
+
+.news {
+	margin-bottom: 10px;
+}
+
+.news:hover {
+	text-decoration: none !important;
+}
+
+
+/* section footer */
+
+.footer .navbar {
+	background-color: #fff;
+}
+
+.footer-collapse {
+	background-color: #fff !important;
+}
+
+.share {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 14px;
+}
+
+.share-footer {
+	color: #337ab7 !important;
+}
+
+.share-footer:hover {
+	cursor: pointer;
+	color: #337ab7 !important;

@@ -1,10 +1,4 @@
-/******************/
- /* section header */
-/******************/
-
-a:hover {
-	text-decoration: none;
-}
+/* section header */
 
 .navbar {
 	background-color: #005794;
@@ -115,118 +109,165 @@ a:hover {
 		font-size: 20px;
 	}
 }
-
-
-/* block news section */
-
-.content-news {
-	width: 100%;
-	margin-top: 30px;
+  /******************/
+ /* section medals */
+/******************/
+.medals {
+	margin-top: 15px;
+	margin-bottom: 40px;
 }
 
-.news-main-img {
-	height: 400px;
-	overflow: hidden;
-	object-fit: contain;
-}
-
-.news-main-img img {
-	width: 100%;
-}
-
-.content-title {
+.section-title {
 	font-family: MuseoSansCyrl700;
 	font-size: 24px;
-	line-height: 30px;
-	margin-top: 30px;
+	margin: 2px 0;
+	margin-left: 15px;
 }
 
-.post-date {
-	font-size: 12px;
-	color: #4da2c7;
-	margin: 10px 0;
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #f4fcfe;
 }
 
-.content-news p {
-	font-family: MuseoSansCyrl500;
-	margin: 15px 0;
+/* №1 table */
+
+th {
+	height: 40px;
+	vertical-align: middle !important;
 }
 
-.content-tags {
-	display: inline-block;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.table-title-wrapper {
+	margin-bottom: 10px;
+}
+
+.table-title {
+	font-size: 18px;
 	float: left;
-	font-family: MuseoSansCyrl500;
 }
 
-.tag {
-	background-color: #1889cb;
-	color: #fff;
-	padding: 5px;
-	border-radius: 5px;
-	font-size: 12px;
-	font-family: MuseoSansCyrl300;
-	margin: 0 3px;
+.table {
+	table-layout: fixed;
 }
 
-.tag:hover {
-	cursor: pointer;
-}
-
-.content-share {
-	display: inline-block;
+.grey-title {
+	color: grey;
 	float: right;
-	font-family: MuseoSansCyrl500;
-	margin-top: -6px;
+	padding-top: 5px;
 }
 
-.content-share a{
+.all-table {
+	font-family: MuseoSansCyrl500;
+	font-size: 12px;
+}
+
+.all-thead {
+	background-color: #1689cc; 
 	color: #fff;
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
+}
+
+.centred-tb-text > th {
+	text-align: center;
+
+}
+
+.num-col, .flag-col {
+	width: 40px;
+}
+
+.num {
+	width: 20px;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.content-share a i {
-	line-height: 35px;
+.flag-col img {
+	width: 100%;
 }
 
-.content-share a:hover {
-
+.country-name {
+	text-align: left;
 }
 
-.content-share .facebook {
-	background-color: #415997;
+.medal {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	display: inline-block;
+	position: relative;
 }
 
-.content-share .twitter {
-	background-color: #1dc0f7;
+.gold {
+	background-color: #f7c12b;
+	z-index: 3;
 }
 
-.content-share .googleplus {
-	background-color: #ed4542;
+.silver {
+	background-color: #bec4c2;
+	z-index: 2;
 }
 
-.content-share .instagramm {
-	background: url('../img/instagram-bg.jpg') no-repeat center;
-	background-size: cover;
+.bronze {
+	background-color: #80544b;
+	z-index: 1;
+	margin-right: 0px !important;
 }
 
-
-@media (max-width: 992px) {
-	.news-main-img {
-		height: 200px;
-	}
-
-	.content-tags {
-		float: none;
-	}
-
-	.content-share {
-		float: none;
-		margin-top: 20px;
-	}
+.medals-wrapper > .medal {
+	margin-right: -7px;
 }
+
+/* №2 table */
+
+.ua-thead {
+	background-color: #095891;
+	color: #fff;
+}
+
+.sp-name-col {
+	width: 30%;
+}
+
+.sport-name {
+	text-align: left;
+}
+
+.img-col {
+	height: 40px;
+	width: 40px;
+	padding: 0 !important;
+}
+
+.img-col img {
+	width: 100%;
+}
+
+/* №3 table */
+.type-col {
+	width: 20%;
+}
+
+.initials-col {
+	width: 35%;
+}
+
+.name-col {
+	width: 30%;
+}
+
+.date-col {
+	width: 15%
+}
+
+.col-content {
+	margin-left: 5px;
+}
+
 /* news slider section */
 
 .news-section {
@@ -293,9 +334,6 @@ a:hover {
 .news:hover {
 	text-decoration: none !important;
 }
-
-
-
 /* section footer */
 
 .footer .navbar {
@@ -319,4 +357,4 @@ a:hover {
 .share-footer:hover {
 	cursor: pointer;
 	color: #337ab7 !important;
-
+}

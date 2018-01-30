@@ -219,9 +219,6 @@
  /* sports section */
 /******************/
 
-.sports {
-}
-
 .sports-wrapper {
 	width: 100%;
 	background-color: #fff;
@@ -605,6 +602,7 @@
 .news .date {
 	font-size: 12px;
 	color: #84bfdf;
+	margin-top: 5px;
 }
 
 @media (max-width: 1200px) {
